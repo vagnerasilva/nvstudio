@@ -1,0 +1,126 @@
+## processing job que nao aparece na interface nova
+# criado pelo data wrangler
+
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAVZI7KKIETRFFXFJJ5:SageMaker",
+        "arn": "arn:aws:sts::397887033865:assumed-role/LabStack-e54a8846-24d6-4878-92c-SageMakerStudioRole-f0JiInsSmKjE/SageMaker",
+        "accountId": "397887033865",
+        "accessKeyId": "ASIAVZI7KKIE6QJ3OBHV",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROAVZI7KKIETRFFXFJJ5",
+                "arn": "arn:aws:iam::397887033865:role/LabStack-e54a8846-24d6-4878-92c-SageMakerStudioRole-f0JiInsSmKjE",
+                "accountId": "397887033865",
+                "userName": "LabStack-e54a8846-24d6-4878-92c-SageMakerStudioRole-f0JiInsSmKjE"
+            },
+            "attributes": {
+                "creationDate": "2023-12-21T14:22:10Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2023-12-21T14:39:22Z",
+    "eventSource": "sagemaker.amazonaws.com",
+    "eventName": "CreateProcessingJob",
+    "awsRegion": "us-west-2",
+    "sourceIPAddress": "34.212.223.231",
+    "userAgent": "Boto3/1.28.71 md/Botocore#1.31.71 md/internal ua/2.0 os/linux#4.14.328-248.540.amzn2.x86_64 md/arch#x86_64 lang/python#3.9.12 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.31.71",
+    "errorCode": "ResourceLimitExceeded",
+    "errorMessage": "The account-level service limit 'ml.m5.4xlarge for processing job usage' is 2 Instances, with current utilization of 0 Instances and a request delta of 4 Instances. Please use AWS Service Quotas to request an increase for this quota. If AWS Service Quotas is not available, contact AWS support to request an increase for this quota.",
+    "requestParameters": {
+        "processingInputs": [
+            {
+                "inputName": "flow",
+                "appManaged": false,
+                "s3Input": {
+                    "s3Uri": "s3://sagemaker-us-west-2-397887033865/data_wrangler_flows/flow-21-14-39-22-c45e802f.flow",
+                    "localPath": "/opt/ml/processing/flow",
+                    "s3DataType": "S3Prefix",
+                    "s3InputMode": "File",
+                    "s3DataDistributionType": "FullyReplicated",
+                    "s3CompressionType": "None"
+                }
+            },
+            {
+                "inputName": "spark_memory_config",
+                "appManaged": false,
+                "s3Input": {
+                    "s3Uri": "s3://sagemaker-us-west-2-397887033865/spark_configuration/flow-21-14-39-22-c45e802f/21-14-39-22/configuration.json",
+                    "localPath": "/opt/ml/processing/input/conf",
+                    "s3DataType": "S3Prefix",
+                    "s3InputMode": "File",
+                    "s3DataDistributionType": "FullyReplicated",
+                    "s3CompressionType": "None"
+                }
+            }
+        ],
+        "processingOutputConfig": {
+            "outputs": [
+                {
+                    "outputName": "79735504-4561-47c3-8d14-e0f174969842.default",
+                    "s3Output": {
+                        "s3Uri": "s3://sagemaker-us-west-2-397887033865/",
+                        "localPath": "/opt/ml/processing/output/79735504-4561-47c3-8d14-e0f174969842",
+                        "s3UploadMode": "EndOfJob"
+                    },
+                    "appManaged": false
+                }
+            ]
+        },
+        "processingJobName": "canvas-data-prep-data-wrangler-dqi-job1703169561465",
+        "processingResources": {
+            "clusterConfig": {
+                "instanceCount": 4,
+                "instanceType": "ml.m5.4xlarge",
+                "volumeSizeInGB": 30
+            }
+        },
+        "appSpecification": {
+            "imageUri": "174368400705.dkr.ecr.us-west-2.amazonaws.com/sagemaker-data-wrangler-container:4.0.5",
+            "containerArguments": [
+                "--output-config '{\"79735504-4561-47c3-8d14-e0f174969842.default\": {\"content_type\": \"JSON\"}}'"
+            ]
+        },
+        "networkConfig": {
+            "enableInterContainerTrafficEncryption": false,
+            "enableNetworkIsolation": false,
+            "vpcConfig": {
+                "securityGroupIds": [
+                    "sg-0117614d12e05f084"
+                ],
+                "subnets": [
+                    "subnet-0e5a471cb1e8da4b5",
+                    "subnet-07d2fb6fa3383c5e2"
+                ]
+            }
+        },
+        "roleArn": "arn:aws:iam::397887033865:role/LabStack-e54a8846-24d6-4878-92c-SageMakerStudioRole-f0JiInsSmKjE",
+        "tags": [
+            {
+                "key": "sagemaker:user-profile-arn",
+                "value": "arn:aws:sagemaker:us-west-2:397887033865:user-profile/d-lib4udjmbrdf/sagemakerstudiouser"
+            },
+            {
+                "key": "sagemaker:domain-arn",
+                "value": "arn:aws:sagemaker:us-west-2:397887033865:domain/d-lib4udjmbrdf"
+            }
+        ]
+    },
+    "responseElements": null,
+    "requestID": "4b890165-ba7b-4b36-87de-fe354303b41c",
+    "eventID": "beda8022-bb48-4b9b-b541-1a1f766e1698",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "397887033865",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "api.sagemaker.us-west-2.amazonaws.com"
+    }
+}

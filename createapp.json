@@ -1,0 +1,66 @@
+## Criando data wrangler
+
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAVZI7KKIETRFFXFJJ5:SageMaker",
+        "arn": "arn:aws:sts::397887033865:assumed-role/LabStack-e54a8846-24d6-4878-92c-SageMakerStudioRole-f0JiInsSmKjE/SageMaker",
+        "accountId": "397887033865",
+        "accessKeyId": "ASIAVZI7KKIEU36EHAGS",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROAVZI7KKIETRFFXFJJ5",
+                "arn": "arn:aws:iam::397887033865:role/LabStack-e54a8846-24d6-4878-92c-SageMakerStudioRole-f0JiInsSmKjE",
+                "accountId": "397887033865",
+                "userName": "LabStack-e54a8846-24d6-4878-92c-SageMakerStudioRole-f0JiInsSmKjE"
+            },
+            "attributes": {
+                "creationDate": "2023-12-21T14:09:48Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2023-12-21T14:21:36Z",
+    "eventSource": "sagemaker.amazonaws.com",
+    "eventName": "CreateApp",
+    "awsRegion": "us-west-2",
+    "sourceIPAddress": "179.209.44.200",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "domainId": "d-lib4udjmbrdf",
+        "userProfileName": "sagemakerstudiouser",
+        "appType": "Canvas",
+        "appName": "default",
+        "tags": [
+            {
+                "key": "sagemaker:user-profile-arn",
+                "value": "arn:aws:sagemaker:us-west-2:397887033865:user-profile/d-lib4udjmbrdf/sagemakerstudiouser"
+            },
+            {
+                "key": "sagemaker:domain-arn",
+                "value": "arn:aws:sagemaker:us-west-2:397887033865:domain/d-lib4udjmbrdf"
+            },
+            {
+                "key": "ProjectName",
+                "value": "AmazonSageMakerStudioDeepDive"
+            }
+        ]
+    },
+    "responseElements": {
+        "appArn": "arn:aws:sagemaker:us-west-2:397887033865:app/d-lib4udjmbrdf/sagemakerstudiouser/canvas/default"
+    },
+    "requestID": "41440d5e-c844-4f93-a4eb-c1a34b2737f3",
+    "eventID": "0c0e9da1-923e-41ee-a370-e1a1bdd0d992",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "397887033865",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "api.sagemaker.us-west-2.amazonaws.com"
+    }
+}

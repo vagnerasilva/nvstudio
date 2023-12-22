@@ -1,0 +1,58 @@
+### create app ao abrir a interface do studio novo 
+
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAVZI7KKIE4QBG36JIE:LPS-States-CreateStack",
+        "arn": "arn:aws:sts::397887033865:assumed-role/AWSLabs-Provisioner-v1-DwAEAwsNCww/LPS-States-CreateStack",
+        "accountId": "397887033865",
+        "accessKeyId": "ASIAVZI7KKIEZCLENL7K",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROAVZI7KKIE4QBG36JIE",
+                "arn": "arn:aws:iam::397887033865:role/AWSLabs-Provisioner-v1-DwAEAwsNCww",
+                "accountId": "397887033865",
+                "userName": "AWSLabs-Provisioner-v1-DwAEAwsNCww"
+            },
+            "attributes": {
+                "creationDate": "2023-12-21T13:25:05Z",
+                "mfaAuthenticated": "false"
+            }
+        },
+        "invokedBy": "cloudformation.amazonaws.com"
+    },
+    "eventTime": "2023-12-21T13:33:15Z",
+    "eventSource": "sagemaker.amazonaws.com",
+    "eventName": "CreateApp",
+    "awsRegion": "us-west-2",
+    "sourceIPAddress": "cloudformation.amazonaws.com",
+    "userAgent": "cloudformation.amazonaws.com",
+    "requestParameters": {
+        "domainId": "d-lib4udjmbrdf",
+        "userProfileName": "SageMakerStudioUser",
+        "appType": "JupyterServer",
+        "appName": "default",
+        "tags": [
+            {
+                "key": "ProjectName",
+                "value": "AmazonSageMakerStudioDeepDive"
+            }
+        ],
+        "resourceSpec": {
+            "sageMakerImageArn": "arn:aws:sagemaker:us-west-2:236514542706:image/jupyter-server-3",
+            "instanceType": "system"
+        }
+    },
+    "responseElements": {
+        "appArn": "arn:aws:sagemaker:us-west-2:397887033865:app/d-lib4udjmbrdf/sagemakerstudiouser/jupyterserver/default"
+    },
+    "requestID": "0da7a519-0e08-4578-9cb9-43bb6ad2ec9a",
+    "eventID": "250a081b-4aae-40ac-9006-2c714e32acc1",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "397887033865",
+    "eventCategory": "Management"
+}

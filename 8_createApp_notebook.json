@@ -1,0 +1,70 @@
+# Quando criamos um notebook comum no
+# https://studio-d-qaaorfk6j3rw.studio.us-west-2.sagemaker.aws/studio-classic
+# https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-jl-user-guide.html
+
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAVIN6NVIFJ5XZBKON6:SageMaker",
+        "arn": "arn:aws:sts::361713478154:assumed-role/LabVPC-notebook-role/SageMaker",
+        "accountId": "361713478154",
+        "accessKeyId": "ASIAVIN6NVIFGZVQOFGD",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROAVIN6NVIFJ5XZBKON6",
+                "arn": "arn:aws:iam::361713478154:role/LabVPC-notebook-role",
+                "accountId": "361713478154",
+                "userName": "LabVPC-notebook-role"
+            },
+            "attributes": {
+                "creationDate": "2023-12-21T17:12:45Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2023-12-21T17:31:12Z",
+    "eventSource": "sagemaker.amazonaws.com",
+    "eventName": "CreateApp",
+    "awsRegion": "us-west-2",
+    "sourceIPAddress": "52.27.224.182",
+    "userAgent": "Botocore/1.23.24 Python/3.9.12 Linux/4.14.328-248.540.amzn2.x86_64",
+    "errorCode": "ResourceInUse",
+    "errorMessage": "App [arn:aws:sagemaker:us-west-2:361713478154:app/d-qaaorfk6j3rw/sagemakerstudiouser/kernelgateway/sagemaker-data-scienc-ml-t3-medium-26785b5a6dcec944732a404766e8] is currently in [Pending] status. To restart the App, wait until it is in Deleted or Failed status.",
+    "requestParameters": {
+        "domainId": "d-qaaorfk6j3rw",
+        "userProfileName": "sagemakerstudiouser",
+        "appType": "KernelGateway",
+        "appName": "sagemaker-data-scienc-ml-t3-medium-26785b5a6dcec944732a404766e8",
+        "tags": [
+            {
+                "key": "sagemaker:user-profile-arn",
+                "value": "arn:aws:sagemaker:us-west-2:361713478154:user-profile/d-qaaorfk6j3rw/sagemakerstudiouser"
+            },
+            {
+                "key": "sagemaker:domain-arn",
+                "value": "arn:aws:sagemaker:us-west-2:361713478154:domain/d-qaaorfk6j3rw"
+            }
+        ],
+        "resourceSpec": {
+            "sageMakerImageArn": "arn:aws:sagemaker:us-west-2:236514542706:image/sagemaker-data-science-310-v1",
+            "instanceType": "ml.t3.medium"
+        }
+    },
+    "responseElements": null,
+    "requestID": "ea6ca994-7485-46a0-b345-10bc6240c254",
+    "eventID": "fde65b2a-1bb6-43e6-af21-485f3699f30b",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "361713478154",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "api.sagemaker.us-west-2.amazonaws.com"
+    }
+}
+
+{"AuthorizedUrl":"https://d-hzegb9hj29p1.studio.us-west-2.sagemaker.aws/auth?token=eyJhbGciOiJIUzI1NiJ9.eyJmYXNDcmVkZW50aWFscyI6IkFZQURlQjJFdkpkdTJsS0M4NUgraWg1TnYwZ0FYd0FCQUJWaGQzTXRZM0o1Y0hSdkxYQjFZbXhwWXkxclpYa0FSRUYxU0dWR2NEaFFRa2RHZERaWGMxaEVieTh6WlRaa1VuUkJVRGxCWTBsWmJGWTNiWFF3WmtaTFVEUTJZWGMxY1U1U00wNVJaelZSUkd0U1VtWnpURGhMWnowOUFBRUFCMkYzY3kxcmJYTUFTMkZ5YmpwaGQzTTZhMjF6T25WekxYZGxjM1F0TWpvek5qWTJOemczTVRBek1qazZhMlY1THpZeU5UWTFNRE5tTFdZeFpHUXROR1JrWlMxaFl6Vm1MVFEyWlRObU5XTTFZV0V5TmdDNEFRSUJBSGdUZ2ZOL05LMmY4RWhxQ3NJbk02b3hvcTFFVGhmck9sbDl5TUJLR0tSQktnRlA1ZVFOMFg2N0VFcllEb1BkUkJKWkFBQUFmakI4QmdrcWhraUc5dzBCQndhZ2J6QnRBZ0VBTUdnR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTVhqNXJZTE1IUjRENzZ4Y3hBZ0VRZ0R1eVFDVUhGTnB2aFc1cWhUNnl6cUM5b0JUcGVUeS9ldUc5c0pHR2JFTEM5b2hrdXpPYlRUd29RRnZvVlJ2TGVsYnFzemVmRUNJZFd5by9VZ0lBQUFBQURBQUFFQUFBQUFBQUFBQUFBQUFBQUFEcktqTFM4OFk3QkRQY05kKzR5TVB5Ly8vLy93QUFBQUVBQUFBQUFBQUFBQUFBQUFFQUFBUEhDajBYOEpvajlvcm9tRHRjNSttLzY0Z00yM3ljUVI0YXRnWSt1a0FpdUZTVi85TmZBblQ4c0Z6bW5mMk5STmgxVlBhSHNoTnA4dm53T0wwN2xHQXAxeDAyOUIzMWdrZ2V2bWlnOGF5bDFVb1lUY2JNeSsrbXNPRXJPVHlIbnY0eUJjZkV6eG5PZjhCV0J5VFZMQ1JGT254MTkvaTcyVG4xTHVXU3VSRk1aNENoWUprMlBFNW03cTNRRm14R0x5RkRRM0JEWUVmRjRUUW5FRGJFV3JWeUl3VTEzQks3ekY1QzYwa2UvWVdEMDRSd2hqTFZYRURuaklCZVVjclRKNXgvMEVkay9veE5OeWFTakFtZ09XOTRXRFlrd3VEN0gzSEcybVNLdlVPQUh6NzdGMWpXd1FCQTZ1R1l6RTl0UWRGYXg3NjU0S1J3QlVYcUo3THhXRlYyTzZxTmVzNjZ4RE9YdzJzdWRIS1RMTDVsYWZGcGZvNks4NEduOWpuOFdIbmdhRVVsTVNPR2tFQ2tUZGRBNUFJR1pmcWR4Z2NwcDc5YUFXRXBDR0YvcU5rR0tPRlpBN2dXayt0NTlPdDFOZEZlM0hCMXdQZkY4T3lhODBaN1RKNENmek1Wb2w0WE5pdnFUK29lMHIybXlkb3ZOY1kvMWNEd1ZFL1oxeUdtTEZFTUhhTHdReWp5ekRTVC9nMFdsdmszbTE0azhUc09ZcGJzU1B1QmpuTDFPaC9jRE1vbFJxSHJ2bW9sNFYxVTF6dHFnbHFRUWFCVkZobjJtbG9qMHhZQ215d0xWOTF1bERUK1FPSDRSVzEwUm9Rb0h3VFpIbWxlM1JNM1V6OWtnOTBZYzViVWtxU3ZJeUpPclRqbmtHNzR3Njk4N3FnR0NFWG84YUdjQTU2Nk10TE5DQkcrK2ZtNERYQVdMYUIzWTJVaHVYYVJvTG1kVVpZMFFCYldKbzRGNHVnczBsdUlzSWdaZ2RhL1dQcS9ORzNlQUdWeG9DekV4cWxCMnN4cG4zNzFXVmJWb3lRWHUyMXhiWSsxQm9GUW9tOHFIajdFbE11TVZOVGJ0QWtGM2w1YzM1UTErSXR0Yzg0dzJqdmErZDVNZ3h5RHBsS3lPLzBiaUNZS1lCV1orNjJWNXFmakk0S3ZRQXpkWlZqZnBYcE5qUDRYSHZuS0d1aGwyZkpYN0FYeGZMRTFxMWJKMithcmhoRkRDODFMcGRTRzlubTlJNFRzVG5GRGk2eDBrdkxLMUtmSGU0dWQrMHlvMElIR21OTURDNVQ4aitPVW83TExJdVR0c1laamtncWU1MHN5ZFlCek13dVJHamgzMEVzaXpxMTM1SWpRTzgyZFlwMGxiYXFmL016YWw0dFg3WWN3K0RmemNXUzRMMHZ4cE1wR1BScThXQ2hLbjJiZVl5eUVJNFk4VWNyU04rQWhLdi93SHpveWgxUVg2SUNENThMOEo0ZExIWjJlTkJmM1huY0NCM0dKQnBvVnRzNjg2bjIzdThJRko2MzNlQmZOb3p1UFE4NCtWam05SUhEdWZFYS84NXpIek1tYU9hS1JDYmJUOEk4SUFTdXVTSlM1aGsrN3RZQ1RSTGRxK1licmdGWUVuMXJWenlHYXVuOVhPdzJvdFpLNG9JUFV4Z1VJMHFnM2ZNOWhCdVY3aE4zdDV4d0VxS3c1ejZ5V0QwN3gxYXV2dHRyaVZGbG13VlBoMDR2aTdpMnQ4Z2dKRkhpYnRSektkSjBBWnpCbEFqRUE5Rnl4MnBoVWpHc0VOc2dldFlQbDZibnpkZ2pmNml4WTYwMkd5UDlPNittMkpzKzV5SVpNUGxvUy9YdTJ3RnVVQWpBb3R0V2V3SWxsYndEYWpveHk0TlphK0orbW9ZQUR3VExqdTl6UDJ1K3ZlanoyTXdQd3J5U3pORnF3TVJDZ1pPaz0iLCJjaXBoZXJUZXh0IjoiQVFJQkFIZ1RnZk4vTksyZjhFaHFDc0luTTZveG9xMUVUaGZyT2xsOXlNQktHS1JCS2dFemE2VGUyNnJUczl3UjlKa2c0bmVhQUFBQW9qQ0Jud1lKS29aSWh2Y05BUWNHb0lHUk1JR09BZ0VBTUlHSUJna3Foa2lHOXcwQkJ3RXdIZ1lKWUlaSUFXVURCQUV1TUJFRURLWFZlWjJIUEZrWVpqd0FyZ0lCRUlCYkNxd2Q4R2E3bkZ1Z0RnM1NlTUpmeUtjVUdnTWt3NVRVeGpEUERPb0s5b3M0am1lNWhDVEQ0bWZ1WkdJYkUwcTh6c0JRbTdTNlRlN0pVWnZHSlJja2diQ0VyL05ZN3Q4QVg1TVIrOXVmQ1VqNXNjb0pJSTZZT2E0TVNBPT0iLCJpZGVudGl0eUlkIjoic2FnZW1ha2Vyc3R1ZGlvdXNlciIsInVzZXJQcm9maWxlTmFtZSI6InNhZ2VtYWtlcnN0dWRpb3VzZXIiLCJsYW5kaW5nVXJpU2NoZW1lIjoiYXBwIiwibGFuZGluZ1VyaUFwcFR5cGUiOiJKdXB5dGVyU2VydmVyIiwibGFuZGluZ1VyaURlZXBMaW5rIjoiIiwic3ViIjoiZC1oemVnYjloajI5cDEiLCJleHAiOjE3MDMyMjk1NTMsImlhdCI6MTcwMzE4NjM1M30.Ksn7bzg6Pl03f0kt5pxuvHysz5DrzD7DQo6idBTH0wQ"}

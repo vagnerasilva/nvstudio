@@ -1,0 +1,47 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAVIN6NVIFJ5XZBKON6:SageMaker",
+        "arn": "arn:aws:sts::361713478154:assumed-role/LabVPC-notebook-role/SageMaker",
+        "accountId": "361713478154",
+        "accessKeyId": "ASIAVIN6NVIFJHUXXKVS",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROAVIN6NVIFJ5XZBKON6",
+                "arn": "arn:aws:iam::361713478154:role/LabVPC-notebook-role",
+                "accountId": "361713478154",
+                "userName": "LabVPC-notebook-role"
+            },
+            "attributes": {
+                "creationDate": "2023-12-21T17:22:12Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2023-12-21T17:26:54Z",
+    "eventSource": "sagemaker.amazonaws.com",
+    "eventName": "CreatePresignedDomainUrl",
+    "awsRegion": "us-west-2",
+    "sourceIPAddress": "179.209.44.200",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "domainId": "d-qaaorfk6j3rw",
+        "userProfileName": "sagemakerstudiouser",
+        "landingUri": "app:JupyterServer:"
+    },
+    "responseElements": null,
+    "requestID": "9d30442c-5b5d-49d1-b241-d58fe218c27a",
+    "eventID": "bb76443e-18dc-4b9e-8b80-fdf039df9f1e",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "361713478154",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "api.sagemaker.us-west-2.amazonaws.com"
+    }
+}

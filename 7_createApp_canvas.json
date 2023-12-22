@@ -1,0 +1,66 @@
+### Quando criamos um canvas para usar o datawrangler
+
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAVIN6NVIFJ5XZBKON6:SageMaker",
+        "arn": "arn:aws:sts::361713478154:assumed-role/LabVPC-notebook-role/SageMaker",
+        "accountId": "361713478154",
+        "accessKeyId": "ASIAVIN6NVIFGZVQOFGD",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROAVIN6NVIFJ5XZBKON6",
+                "arn": "arn:aws:iam::361713478154:role/LabVPC-notebook-role",
+                "accountId": "361713478154",
+                "userName": "LabVPC-notebook-role"
+            },
+            "attributes": {
+                "creationDate": "2023-12-21T17:12:45Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2023-12-21T17:34:45Z",
+    "eventSource": "sagemaker.amazonaws.com",
+    "eventName": "CreateApp",
+    "awsRegion": "us-west-2",
+    "sourceIPAddress": "52.27.224.182",
+    "userAgent": "Botocore/1.23.24 Python/3.9.12 Linux/4.14.328-248.540.amzn2.x86_64",
+    "requestParameters": {
+        "domainId": "d-qaaorfk6j3rw",
+        "userProfileName": "sagemakerstudiouser",
+        "appType": "KernelGateway",
+        "appName": "sagemaker-data-scienc-ml-t3-xlarge-28903cd5f6737fd7604af50a21d5",
+        "tags": [
+            {
+                "key": "sagemaker:user-profile-arn",
+                "value": "arn:aws:sagemaker:us-west-2:361713478154:user-profile/d-qaaorfk6j3rw/sagemakerstudiouser"
+            },
+            {
+                "key": "sagemaker:domain-arn",
+                "value": "arn:aws:sagemaker:us-west-2:361713478154:domain/d-qaaorfk6j3rw"
+            }
+        ],
+        "resourceSpec": {
+            "sageMakerImageArn": "arn:aws:sagemaker:us-west-2:236514542706:image/sagemaker-data-science-310-v1",
+            "instanceType": "ml.t3.xlarge"
+        }
+    },
+    "responseElements": {
+        "appArn": "arn:aws:sagemaker:us-west-2:361713478154:app/d-qaaorfk6j3rw/sagemakerstudiouser/kernelgateway/sagemaker-data-scienc-ml-t3-xlarge-28903cd5f6737fd7604af50a21d5"
+    },
+    "requestID": "4d890347-5695-4d08-b828-b56a06c2e79e",
+    "eventID": "9aaf4468-7c9d-4a1e-aaf1-ddba16e2781e",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "361713478154",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "api.sagemaker.us-west-2.amazonaws.com"
+    }
+}

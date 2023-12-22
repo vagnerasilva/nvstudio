@@ -1,0 +1,3 @@
+## erro na hora da criacao do vscode studio
+
+AccessDeniedException: User: arn:aws:sts::361713478154:assumed-role/LabVPC-notebook-role/SageMaker is not authorized to perform: sagemaker:CreateSpace on resource: arn:aws:sagemaker:us-west-2:361713478154:space/d-qaaorfk6j3rw/testeaula because no identity-based policy allows the sagemaker:CreateSpace action
