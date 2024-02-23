@@ -23,3 +23,5 @@ https://docs.aws.amazon.com/pt_br/whitepapers/latest/sagemaker-studio-admin-best
 https://awscli.amazonaws.com/v2/documentation/api/2.13.0/reference/sagemaker/create-domain.html
 
 https://github.com/aws/sagemaker-python-sdk/tree/master
+
+https://stackoverflow.com/questions/77907724/how-to-enable-autoshutdown-lifecycle-configuration-in-new-sagemaker-studio/77949645#77949645
