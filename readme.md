@@ -13,3 +13,9 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-migrate.html
 
 
 https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-jl-migration.html
+
+
+
+best praticas
+
+https://docs.aws.amazon.com/pt_br/whitepapers/latest/sagemaker-studio-admin-best-practices/domain-management.html
