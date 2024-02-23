@@ -19,3 +19,7 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-jl-migration.html
 best praticas
 
 https://docs.aws.amazon.com/pt_br/whitepapers/latest/sagemaker-studio-admin-best-practices/domain-management.html
+
+https://awscli.amazonaws.com/v2/documentation/api/2.13.0/reference/sagemaker/create-domain.html
+
+https://github.com/aws/sagemaker-python-sdk/tree/master
