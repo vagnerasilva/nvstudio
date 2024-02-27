@@ -25,3 +25,5 @@ https://awscli.amazonaws.com/v2/documentation/api/2.13.0/reference/sagemaker/cre
 https://github.com/aws/sagemaker-python-sdk/tree/master
 
 https://stackoverflow.com/questions/77907724/how-to-enable-autoshutdown-lifecycle-configuration-in-new-sagemaker-studio/77949645#77949645
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-jl-migration.html
