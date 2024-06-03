@@ -27,3 +27,14 @@ https://github.com/aws/sagemaker-python-sdk/tree/master
 https://stackoverflow.com/questions/77907724/how-to-enable-autoshutdown-lifecycle-configuration-in-new-sagemaker-studio/77949645#77949645
 
 https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-jl-migration.html
+
+#processing jobs
+https://medium.com/@sharma-sristi/dynamic-parallel-sagemaker-processing-jobs-in-step-functions-eba5060df36c
+
+#processing jobs
+https://medium.com/@koki_noda/the-path-to-sagemaker-processing-job-mastery-506fc1e096ed
+
+https://github.com/aws/amazon-sagemaker-examples/issues/1075
+
+https://github.com/aws/amazon-sagemaker-examples/issues/2852
+
