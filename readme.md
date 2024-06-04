@@ -38,3 +38,9 @@ https://github.com/aws/amazon-sagemaker-examples/issues/1075
 
 https://github.com/aws/amazon-sagemaker-examples/issues/2852
 
+
+#processamento paralelizado
+
+https://github.com/aws/amazon-sagemaker-examples/issues/2852#issuecomment-1098298569
+https://stackoverflow.com/questions/68624368/distributed-processing-aws-sagemaker
+
