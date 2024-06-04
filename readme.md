@@ -44,3 +44,7 @@ https://github.com/aws/amazon-sagemaker-examples/issues/2852
 https://github.com/aws/amazon-sagemaker-examples/issues/2852#issuecomment-1098298569
 https://stackoverflow.com/questions/68624368/distributed-processing-aws-sagemaker
 
+
+imagem
+https://awstip.com/process-your-data-like-a-pro-the-story-of-sagemaker-processing-jobs-d9a391127983
+
