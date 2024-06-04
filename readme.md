@@ -47,4 +47,6 @@ https://stackoverflow.com/questions/68624368/distributed-processing-aws-sagemake
 
 imagem
 https://awstip.com/process-your-data-like-a-pro-the-story-of-sagemaker-processing-jobs-d9a391127983
+https://awstip.com/make-recordio-files-for-training-on-amazon-sagemaker-a5fe2e6c22eb
+
 
